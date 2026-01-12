@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Counter } from './components/Counter';
 import { NotificationToast } from './components/NotificationToast';
@@ -498,7 +497,7 @@ const App: React.FC = () => {
                 </li>
                 <li className="flex flex-col">
                   <span className="text-slate-900 font-bold text-sm leading-tight">Áudio: Reset Emocional</span>
-                  <span className="text-slate-500 text-[11px] leading-tight">Para dias caóticos → Evita decisões impulsivas</span>
+                  <span className="text-slate-500 text-[11px] leading-tight Para dias caóticos → Evita decisões impulsivas</span>
                 </li>
                 <li className="flex flex-col">
                   <span className="text-slate-900 font-bold text-sm leading-tight">Lista de Autocuidado Essencial</span>
@@ -738,7 +737,7 @@ const App: React.FC = () => {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-slate-900 leading-tight uppercase text-balance text-slate-900">🔐 GARANTIA INCONDICIONAL</h2>
             <p className="text-slate-600 leading-relaxed text-sm md:text-lg text-balance">
-              Teste por 7 dias. Aplique o protocolo, use as ferramentas. Se você não sentir que sua rotina está mais organizada e que identificou desperdícios, basta me mandar um e-mail e devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia. O risco é todo meu.
+              Teste por 7 dias. Aplique o protocolo, use as ferramentas. Se você não sentir que sua rotina está mais organizada e que identificou desperdícios, seu acesso chegará via whatsapp alguns minutos após a compra de forma automática para facilitar seu suporte, e caso queira o reembolso devolvemos 100% do seu dinheiro. Nosso atendimento é humanizado e funciona 24 horas por dia. Sem perguntas, sem burocracia.
             </p>
           </div>
         </div>
@@ -751,11 +750,11 @@ const App: React.FC = () => {
           <div className="divide-y divide-slate-100 border-t border-slate-100">
             <FAQItem 
               question="Como recebo meu acesso após a compra?" 
-              answer={<p>Seu acesso chegará via e-mail em alguns minutos após a compra, caso não chegue envie um e-mail para <a href="mailto:contato.vidaprospera@gmail.com" className="text-pink-600 font-bold underline">contato.vidaprospera@gmail.com</a></p>} 
+              answer={<p>seu acesso chegara via whatsapp alguns minutos após a compra de forma automática. Nossa equipe entrará em contato com você diretamente através do WhatsApp. O atendimento é humanizado e funciona 24 horas por dia para garantir que você receba tudo corretamente.</p>} 
             />
             <FAQItem 
               question="Terei suporte para eventuais dúvidas?" 
-              answer={<p>Sim, poderá enviar para esse e-mail: <a href="mailto:contato.vidaprospera@gmail.com" className="text-pink-600 font-bold underline">contato.vidaprospera@gmail.com</a></p>} 
+              answer={<p>Sim! Você terá suporte total através do nosso <strong>WhatsApp</strong>. Contamos com uma equipe de atendimento humanizado disponível 24 horas por dia para te auxiliar em qualquer etapa da sua jornada.</p>} 
             />
             <FAQItem 
               question="Por quanto tempo terei acesso?" 
