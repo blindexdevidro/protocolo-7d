@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Counter } from './components/Counter';
 import { NotificationToast } from './components/NotificationToast';
@@ -60,7 +61,7 @@ const UpsellModal: React.FC<{ isOpen: boolean; onClose: () => void }> = ({ isOpe
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/90 backdrop-blur-sm animate-in fade-in duration-300">
       <div className="bg-white rounded-[2.5rem] max-w-lg w-full overflow-hidden shadow-2xl border-4 border-pink-500 animate-in zoom-in-95 duration-300">
         <div className="bg-pink-600 text-white py-4 px-6 text-center">
-          <h4 className="text-xl md:text-2xl font-black uppercase tracking-tighter italic text-white">😱 ESPERA! NÃO VÁ AINDA...</h4>
+          <h4 className="text-xl md:text-2xl font-black uppercase tracking-tighter italic">😱 ESPERA! NÃO VÁ AINDA...</h4>
         </div>
         <div className="p-8 text-center">
           <p className="text-slate-800 text-lg md:text-xl font-bold mb-6">
@@ -82,12 +83,12 @@ const UpsellModal: React.FC<{ isOpen: boolean; onClose: () => void }> = ({ isOpe
             >
               SIM! QUERO O PACOTE COMPLETO POR 19,90
             </a>
-            <button 
-              onClick={onClose}
+            <a 
+              href="https://go.tribopay.com.br/npr6yerlcl"
               className="block w-full text-slate-400 font-bold py-2 text-sm hover:text-slate-600 transition-colors"
             >
               Não, quero somente o protocolo de 9,90 mesmo
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -139,7 +140,7 @@ const App: React.FC = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-rose-400 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative bg-white border-2 border-pink-100 px-6 py-4 md:px-12 md:py-6 rounded-2xl shadow-xl">
               <h2 className="text-2xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter md:tracking-tight leading-none text-balance">
-                <span className="text-pink-600">Protocolo</span> <span>Vida Próspera 7D</span>
+                <span className="text-pink-600">Protocolo</span> <span className="text-slate-900">Vida Próspera 7D</span>
               </h2>
             </div>
           </div>
@@ -362,7 +363,7 @@ const App: React.FC = () => {
               <p className="text-slate-400 mb-8 font-medium">Acompanhe emoções, energia, água e exercícios diariamente de forma intuitiva.</p>
               <div className="flex items-center space-x-3">
                 <span className="text-slate-600 line-through font-bold text-lg">R$ 37</span>
-                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase text-pink-500">por GRÁTIS</span>
+                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase">por GRÁTIS</span>
               </div>
             </div>
 
@@ -374,7 +375,7 @@ const App: React.FC = () => {
               <p className="text-slate-400 mb-8 font-medium">Organize seu tempo diário e semanal sem sacrificar sua saúde mental.</p>
               <div className="flex items-center space-x-3">
                 <span className="text-slate-600 line-through font-bold text-lg">R$ 27</span>
-                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase text-pink-500">por GRÁTIS</span>
+                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase">por GRÁTIS</span>
               </div>
             </div>
 
@@ -386,7 +387,7 @@ const App: React.FC = () => {
               <p className="text-slate-400 mb-8 font-medium">Crie rituais simples que sustentam sua rotina e foco o dia todo.</p>
               <div className="flex items-center space-x-3">
                 <span className="text-slate-600 line-through font-bold text-lg">R$ 47</span>
-                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase text-pink-500">por GRÁTIS</span>
+                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase">por GRÁTIS</span>
               </div>
             </div>
 
@@ -398,7 +399,7 @@ const App: React.FC = () => {
               <p className="text-slate-400 mb-8 font-medium">Estratégias poderosas de cuidado pessoal para mulheres com pouco tempo.</p>
               <div className="flex items-center space-x-3">
                 <span className="text-slate-600 line-through font-bold text-lg">R$ 47</span>
-                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase text-pink-500">por GRÁTIS</span>
+                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase">por GRÁTIS</span>
               </div>
             </div>
           </div>
@@ -641,7 +642,7 @@ const App: React.FC = () => {
           <div className="bg-pink-50 p-6 rounded-2xl border-2 border-dashed border-pink-200">
             <p className="text-xl md:text-2xl font-black text-pink-600 leading-tight text-balance uppercase">
               👉 Prosperidade não começa no bolso. <br />
-              Comeca na rotina.
+              Começa na rotina.
             </p>
           </div>
         </div>
@@ -650,7 +651,7 @@ const App: React.FC = () => {
       {/* Pricing Section */}
       <section id="pricing" className="py-16 md:py-24 px-5 gradient-bg overflow-hidden">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-4 leading-tight uppercase text-balance text-slate-900">💥 ESCOLHA SUA OFERTA</h2>
+          <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-4 leading-tight uppercase text-balance">💥 ESCOLHA SUA OFERTA</h2>
           <p className="text-center text-slate-600 mb-12 md:mb-16 font-medium text-sm md:text-lg">Acesso imediato após confirmação do pagamento.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-8 items-stretch">
@@ -658,10 +659,10 @@ const App: React.FC = () => {
               <h3 className="text-lg md:text-xl font-black mb-4 text-slate-800 tracking-tight uppercase">PROTOCOLO ESSENCIAL</h3>
               <p className="text-slate-500 text-sm md:text-base mb-8 leading-relaxed">O protocolo prático de 7 dias e as ferramentas base de organização.</p>
               <div className="mb-10">
-                <p className="text-slate-400 line-through text-xs md:text-sm font-medium mb-1 uppercase tracking-wider text-slate-400">De R$ 47,00</p>
-                <div className="flex items-baseline text-slate-800">
-                  <span className="text-xl md:text-2xl font-bold">R$</span>
-                  <span className="text-4xl md:text-5xl font-black ml-1">9,90</span>
+                <p className="text-slate-400 line-through text-xs md:text-sm font-medium mb-1 uppercase tracking-wider">De R$ 47,00</p>
+                <div className="flex items-baseline">
+                  <span className="text-xl md:text-2xl font-bold text-slate-800">R$</span>
+                  <span className="text-4xl md:text-5xl font-black ml-1 text-slate-800">9,90</span>
                 </div>
                 <p className="text-[10px] md:text-xs text-slate-400 font-bold uppercase tracking-widest mt-2">Pagamento único</p>
               </div>
@@ -690,10 +691,10 @@ const App: React.FC = () => {
               </div>
 
               <div className="mb-8">
-                <p className="text-slate-400 line-through text-xs md:text-sm font-medium mb-1 uppercase tracking-wider text-slate-400">De R$ 197,00</p>
-                <div className="flex items-baseline text-pink-600">
-                  <span className="text-xl md:text-3xl font-bold">R$</span>
-                  <span className="text-5xl md:text-6xl font-black ml-1">24,90</span>
+                <p className="text-slate-400 line-through text-xs md:text-sm font-medium mb-1 uppercase tracking-wider">De R$ 197,00</p>
+                <div className="flex items-baseline">
+                  <span className="text-xl md:text-3xl font-bold text-pink-600">R$</span>
+                  <span className="text-5xl md:text-6xl font-black text-pink-600 ml-1">24,90</span>
                 </div>
                 <p className="text-[10px] md:text-xs text-pink-500 font-black uppercase tracking-widest mt-2">MELHOR CUSTO-BENEFÍCIO (PAGAMENTO ÚNICO)</p>
               </div>
@@ -737,7 +738,7 @@ const App: React.FC = () => {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-slate-900 leading-tight uppercase text-balance text-slate-900">🔐 GARANTIA INCONDICIONAL</h2>
             <p className="text-slate-600 leading-relaxed text-sm md:text-lg text-balance">
-              Teste por 7 dias. Aplique o protocolo, use as ferramentas. Se você não sentir que sua rotina está mais organizada e que identificou desperdícios, seu acesso chegara via whatsapp alguns minutos após a compra de forma automática para facilitar seu suporte, e caso queira o reembolso devolvemos 100% do seu dinheiro. Nosso atendimento é humanizado e funciona 24 horas por dia. Sem perguntas, sem burocracia.
+              Teste por 7 dias. Aplique o protocolo, use as ferramentas. Se você não sentir que sua rotina está mais organizada e que identificou desperdícios, basta me mandar um e-mail e devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia. O risco é todo meu.
             </p>
           </div>
         </div>
@@ -750,11 +751,11 @@ const App: React.FC = () => {
           <div className="divide-y divide-slate-100 border-t border-slate-100">
             <FAQItem 
               question="Como recebo meu acesso após a compra?" 
-              answer={<p>seu acesso chegara via whatsapp alguns minutos após a compra de forma automática. Nossa equipe entrará em contato com você diretamente através do WhatsApp. O atendimento é humanizado e funciona 24 horas por dia para garantir que você receba tudo corretamente.</p>} 
+              answer={<p>Seu acesso chegará via e-mail em alguns minutos após a compra, caso não chegue envie um e-mail para <a href="mailto:contato.vidaprospera@gmail.com" className="text-pink-600 font-bold underline">contato.vidaprospera@gmail.com</a></p>} 
             />
             <FAQItem 
               question="Terei suporte para eventuais dúvidas?" 
-              answer={<p>Sim! Você terá suporte total através do nosso <strong>WhatsApp</strong>. Contamos com uma equipe de atendimento humanizado disponível 24 horas por dia para te auxiliar em qualquer etapa da sua jornada.</p>} 
+              answer={<p>Sim, poderá enviar para esse e-mail: <a href="mailto:contato.vidaprospera@gmail.com" className="text-pink-600 font-bold underline">contato.vidaprospera@gmail.com</a></p>} 
             />
             <FAQItem 
               question="Por quanto tempo terei acesso?" 
