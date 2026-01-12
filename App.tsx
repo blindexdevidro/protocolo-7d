@@ -139,7 +139,7 @@ const App: React.FC = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-rose-400 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative bg-white border-2 border-pink-100 px-6 py-4 md:px-12 md:py-6 rounded-2xl shadow-xl">
               <h2 className="text-2xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter md:tracking-tight leading-none text-balance">
-                <span className="text-pink-600">Protocolo</span> <span className="text-slate-900">Vida Próspera 7D</span>
+                <span className="text-pink-600">Protocolo</span> <span>Vida Próspera 7D</span>
               </h2>
             </div>
           </div>
@@ -293,7 +293,7 @@ const App: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-slate-50 p-8 rounded-[2rem] border border-slate-100 flex flex-col shadow-sm">
-              <h4 className="font-black text-slate-900 mb-6 flex items-center space-x-3 text-slate-900">
+              <h4 className="font-black text-slate-900 mb-6 flex items-center space-x-3">
                 <span className="text-2xl text-pink-600">🔹</span> <span className="leading-tight uppercase text-sm md:text-base">Organização pessoal e autocuidado</span>
               </h4>
               <ul className="space-y-3 text-slate-600 text-sm font-bold flex-grow">
@@ -306,7 +306,7 @@ const App: React.FC = () => {
             </div>
 
             <div className="bg-pink-50/30 p-8 rounded-[2rem] border border-pink-100 flex flex-col shadow-sm">
-              <h4 className="font-black text-slate-900 mb-6 flex items-center space-x-3 text-slate-900">
+              <h4 className="font-black text-slate-900 mb-6 flex items-center space-x-3">
                 <span className="text-2xl text-pink-600">🔹</span> <span className="leading-tight uppercase text-sm md:text-base">Planejamento de vida e projetos</span>
               </h4>
               <ul className="space-y-3 text-slate-600 text-sm font-bold flex-grow">
@@ -320,7 +320,7 @@ const App: React.FC = () => {
             </div>
 
             <div className="bg-slate-50 p-8 rounded-[2rem] border border-slate-100 flex flex-col shadow-sm">
-              <h4 className="font-black text-slate-900 mb-6 flex items-center space-x-3 text-slate-900">
+              <h4 className="font-black text-slate-900 mb-6 flex items-center space-x-3">
                 <span className="text-2xl text-pink-600">🔹</span> <span className="leading-tight uppercase text-sm md:text-base">Organização da casa</span>
               </h4>
               <ul className="space-y-3 text-slate-600 text-sm font-bold flex-grow">
@@ -331,7 +331,7 @@ const App: React.FC = () => {
             </div>
 
             <div className="bg-pink-50/30 p-8 rounded-[2rem] border border-pink-100 flex flex-col shadow-sm">
-              <h4 className="font-black text-slate-900 mb-6 flex items-center space-x-3 text-slate-900">
+              <h4 className="font-black text-slate-900 mb-6 flex items-center space-x-3">
                 <span className="text-2xl text-pink-600">🔹</span> <span className="leading-tight uppercase text-sm md:text-base">Planejamento de viagem</span>
               </h4>
               <p className="text-slate-500 text-sm font-bold leading-relaxed">Planejamento completo e detalhado para suas próximas férias sem sustos financeiros.</p>
@@ -348,7 +348,7 @@ const App: React.FC = () => {
               🎁 MEGA PACOTE <br/>
               <span className="text-pink-600">DE BÔNUS EXCLUSIVOS</span>
             </h2>
-            <p className="text-slate-500 max-w-2xl mx-auto font-medium md:text-xl italic text-slate-500">
+            <p className="text-slate-500 max-w-2xl mx-auto font-medium md:text-xl italic">
               Estes materiais premium e ferramentas extras estão inclusos no seu acesso sem custo adicional se você garantir sua vaga hoje.
             </p>
           </div>
@@ -362,7 +362,7 @@ const App: React.FC = () => {
               <p className="text-slate-400 mb-8 font-medium">Acompanhe emoções, energia, água e exercícios diariamente de forma intuitiva.</p>
               <div className="flex items-center space-x-3">
                 <span className="text-slate-600 line-through font-bold text-lg">R$ 37</span>
-                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase">por GRÁTIS</span>
+                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase text-pink-500">por GRÁTIS</span>
               </div>
             </div>
 
@@ -374,7 +374,7 @@ const App: React.FC = () => {
               <p className="text-slate-400 mb-8 font-medium">Organize seu tempo diário e semanal sem sacrificar sua saúde mental.</p>
               <div className="flex items-center space-x-3">
                 <span className="text-slate-600 line-through font-bold text-lg">R$ 27</span>
-                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase">por GRÁTIS</span>
+                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase text-pink-500">por GRÁTIS</span>
               </div>
             </div>
 
@@ -386,7 +386,7 @@ const App: React.FC = () => {
               <p className="text-slate-400 mb-8 font-medium">Crie rituais simples que sustentam sua rotina e foco o dia todo.</p>
               <div className="flex items-center space-x-3">
                 <span className="text-slate-600 line-through font-bold text-lg">R$ 47</span>
-                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase">por GRÁTIS</span>
+                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase text-pink-500">por GRÁTIS</span>
               </div>
             </div>
 
@@ -398,7 +398,7 @@ const App: React.FC = () => {
               <p className="text-slate-400 mb-8 font-medium">Estratégias poderosas de cuidado pessoal para mulheres com pouco tempo.</p>
               <div className="flex items-center space-x-3">
                 <span className="text-slate-600 line-through font-bold text-lg">R$ 47</span>
-                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase">por GRÁTIS</span>
+                <span className="text-pink-500 font-black text-2xl tracking-tighter uppercase text-pink-500">por GRÁTIS</span>
               </div>
             </div>
           </div>
@@ -409,7 +409,7 @@ const App: React.FC = () => {
             </h3>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-slate-900">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Category 1 */}
             <div className="bg-white p-8 rounded-[2.5rem] shadow-sm border border-slate-200 hover:shadow-md transition-all">
               <h4 className="flex items-center space-x-2 font-black text-pink-600 mb-6 uppercase tracking-tighter text-lg">
@@ -552,7 +552,7 @@ const App: React.FC = () => {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
             <div className="bg-green-50/50 p-8 rounded-3xl border border-green-100 shadow-sm">
-              <h3 className="text-2xl font-black text-green-700 mb-8 flex items-center space-x-3 text-balance uppercase text-green-700">
+              <h3 className="text-2xl font-black text-green-700 mb-8 flex items-center space-x-3 text-balance uppercase">
                 <span className="text-3xl">🎯</span>
                 <span>Este Protocolo É PARA VOCÊ:</span>
               </h3>
@@ -572,7 +572,7 @@ const App: React.FC = () => {
             </div>
 
             <div className="bg-red-50/50 p-8 rounded-3xl border border-red-100 shadow-sm">
-              <h3 className="text-2xl font-black text-red-700 mb-8 flex items-center space-x-3 text-balance uppercase text-red-700">
+              <h3 className="text-2xl font-black text-red-700 mb-8 flex items-center space-x-3 text-balance uppercase">
                 <span className="text-3xl">❌</span>
                 <span>NÃO É PARA QUEM:</span>
               </h3>
@@ -597,7 +597,7 @@ const App: React.FC = () => {
       {/* Social Proof Section */}
       <section className="bg-pink-50/30 py-16 md:py-24 px-5 border-y border-pink-100">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-4xl font-bold text-center mb-4 leading-tight uppercase text-slate-900">💬 O que elas estão dizendo...</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-center mb-4 leading-tight uppercase">💬 O que elas estão dizendo...</h2>
           <p className="text-center text-slate-500 mb-12 md:mb-16 text-sm md:text-lg">Resultados reais de quem parou de improvisar a própria rotina.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -625,7 +625,7 @@ const App: React.FC = () => {
       {/* Final Warning Section */}
       <section className="py-20 px-5 bg-white text-center">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-10 uppercase tracking-tighter text-slate-900">🚨 AVISO FINAL</h2>
+          <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-10 uppercase tracking-tighter">🚨 AVISO FINAL</h2>
           <p className="text-xl font-bold text-slate-800 mb-8">Se você continuar vivendo no improviso:</p>
           <ul className="space-y-4 mb-10 inline-block text-left">
             <li className="flex items-center space-x-3 text-lg md:text-xl font-medium text-slate-700">
@@ -641,7 +641,7 @@ const App: React.FC = () => {
           <div className="bg-pink-50 p-6 rounded-2xl border-2 border-dashed border-pink-200">
             <p className="text-xl md:text-2xl font-black text-pink-600 leading-tight text-balance uppercase">
               👉 Prosperidade não começa no bolso. <br />
-              Começa na rotina.
+              Comeca na rotina.
             </p>
           </div>
         </div>
@@ -651,23 +651,23 @@ const App: React.FC = () => {
       <section id="pricing" className="py-16 md:py-24 px-5 gradient-bg overflow-hidden">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-4 leading-tight uppercase text-balance text-slate-900">💥 ESCOLHA SUA OFERTA</h2>
-          <p className="text-center text-slate-600 mb-12 md:mb-16 font-medium text-sm md:text-lg text-slate-600">Acesso imediato após confirmação do pagamento.</p>
+          <p className="text-center text-slate-600 mb-12 md:mb-16 font-medium text-sm md:text-lg">Acesso imediato após confirmação do pagamento.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-8 items-stretch">
             <div className="bg-white p-8 md:p-10 rounded-[2rem] shadow-lg border border-slate-100 flex flex-col order-2 md:order-1 opacity-90 hover:opacity-100 transition-opacity">
               <h3 className="text-lg md:text-xl font-black mb-4 text-slate-800 tracking-tight uppercase">PROTOCOLO ESSENCIAL</h3>
-              <p className="text-slate-500 text-sm md:text-base mb-8 leading-relaxed text-slate-500">O protocolo prático de 7 dias e as ferramentas base de organização.</p>
+              <p className="text-slate-500 text-sm md:text-base mb-8 leading-relaxed">O protocolo prático de 7 dias e as ferramentas base de organização.</p>
               <div className="mb-10">
-                <p className="text-slate-400 line-through text-xs md:text-sm font-medium mb-1 uppercase tracking-wider">De R$ 47,00</p>
-                <div className="flex items-baseline">
-                  <span className="text-xl md:text-2xl font-bold text-slate-800">R$</span>
-                  <span className="text-4xl md:text-5xl font-black ml-1 text-slate-800">9,90</span>
+                <p className="text-slate-400 line-through text-xs md:text-sm font-medium mb-1 uppercase tracking-wider text-slate-400">De R$ 47,00</p>
+                <div className="flex items-baseline text-slate-800">
+                  <span className="text-xl md:text-2xl font-bold">R$</span>
+                  <span className="text-4xl md:text-5xl font-black ml-1">9,90</span>
                 </div>
                 <p className="text-[10px] md:text-xs text-slate-400 font-bold uppercase tracking-widest mt-2">Pagamento único</p>
               </div>
               <ul className="text-sm md:text-base space-y-4 mb-10 flex-grow">
-                <li className="flex items-center space-x-3 text-slate-600 font-medium"><span className="text-pink-500 font-bold">✓</span> <span>Protocolo 7 Dias (PDF)</span></li>
-                <li className="flex items-center space-x-3 text-slate-600 font-medium"><span className="text-pink-500 font-bold">✓</span> <span>Ferramentas Mês a Mês</span></li>
+                <li className="flex items-center space-x-3 text-slate-600"><span className="text-pink-500 font-bold">✓</span> <span>Protocolo 7 Dias (PDF)</span></li>
+                <li className="flex items-center space-x-3 text-slate-600"><span className="text-pink-500 font-bold">✓</span> <span>Ferramentas Mês a Mês</span></li>
                 <li className="flex items-center space-x-3 text-slate-400 italic"><span>✕ Sem os Bônus Exclusivos</span></li>
               </ul>
               <button 
@@ -690,10 +690,10 @@ const App: React.FC = () => {
               </div>
 
               <div className="mb-8">
-                <p className="text-slate-400 line-through text-xs md:text-sm font-medium mb-1 uppercase tracking-wider">De R$ 197,00</p>
-                <div className="flex items-baseline">
-                  <span className="text-xl md:text-3xl font-bold text-pink-600">R$</span>
-                  <span className="text-5xl md:text-6xl font-black text-pink-600 ml-1">24,90</span>
+                <p className="text-slate-400 line-through text-xs md:text-sm font-medium mb-1 uppercase tracking-wider text-slate-400">De R$ 197,00</p>
+                <div className="flex items-baseline text-pink-600">
+                  <span className="text-xl md:text-3xl font-bold">R$</span>
+                  <span className="text-5xl md:text-6xl font-black ml-1">24,90</span>
                 </div>
                 <p className="text-[10px] md:text-xs text-pink-500 font-black uppercase tracking-widest mt-2">MELHOR CUSTO-BENEFÍCIO (PAGAMENTO ÚNICO)</p>
               </div>
@@ -736,8 +736,8 @@ const App: React.FC = () => {
           </div>
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-slate-900 leading-tight uppercase text-balance text-slate-900">🔐 GARANTIA INCONDICIONAL</h2>
-            <p className="text-slate-600 leading-relaxed text-sm md:text-lg text-balance text-slate-600">
-              Teste por 7 dias. Aplique o protocolo, use as ferramentas. Se você não sentir que sua rotina está mais organizada e que identificou desperdícios, seu acesso chegará via whatsapp alguns minutos após a compra de forma automática para facilitar seu suporte, e caso queira o reembolso devolvemos 100% do seu dinheiro. Nosso atendimento é humanizado e funciona 24 horas por dia. Sem perguntas, sem burocracia.
+            <p className="text-slate-600 leading-relaxed text-sm md:text-lg text-balance">
+              Teste por 7 dias. Aplique o protocolo, use as ferramentas. Se você não sentir que sua rotina está mais organizada e que identificou desperdícios, seu acesso chegara via whatsapp alguns minutos após a compra de forma automática para facilitar seu suporte, e caso queira o reembolso devolvemos 100% do seu dinheiro. Nosso atendimento é humanizado e funciona 24 horas por dia. Sem perguntas, sem burocracia.
             </p>
           </div>
         </div>
@@ -746,27 +746,27 @@ const App: React.FC = () => {
       {/* FAQ Section */}
       <section className="py-16 md:py-24 px-5 bg-white border-t border-slate-100">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-12 text-slate-900 uppercase tracking-tight text-slate-900">Dúvidas Frequentes</h2>
+          <h2 className="text-3xl md:text-4xl font-black text-center mb-12 text-slate-900 uppercase tracking-tight">Dúvidas Frequentes</h2>
           <div className="divide-y divide-slate-100 border-t border-slate-100">
             <FAQItem 
               question="Como recebo meu acesso após a compra?" 
-              answer={<p className="text-slate-600">Seu acesso chegara via whatsapp alguns minutos após a compra de forma automática. Nossa equipe entrará em contato com você diretamente através do WhatsApp. O atendimento é humanizado e funciona 24 horas por dia para garantir que você receba tudo corretamente.</p>} 
+              answer={<p>seu acesso chegara via whatsapp alguns minutos após a compra de forma automática. Nossa equipe entrará em contato com você diretamente através do WhatsApp. O atendimento é humanizado e funciona 24 horas por dia para garantir que você receba tudo corretamente.</p>} 
             />
             <FAQItem 
               question="Terei suporte para eventuais dúvidas?" 
-              answer={<p className="text-slate-600">Sim! Você terá suporte total através do nosso <strong>WhatsApp</strong>. Contamos com uma equipe de atendimento humanizado disponível 24 horas por dia para te auxiliar em qualquer etapa da sua jornada.</p>} 
+              answer={<p>Sim! Você terá suporte total através do nosso <strong>WhatsApp</strong>. Contamos com uma equipe de atendimento humanizado disponível 24 horas por dia para te auxiliar em qualquer etapa da sua jornada.</p>} 
             />
             <FAQItem 
               question="Por quanto tempo terei acesso?" 
-              answer={<p className="text-slate-600">Acesso vitalício a todo conteúdo.</p>} 
+              answer={<p>Acesso vitalício a todo conteúdo.</p>} 
             />
             <FAQItem 
               question="Posso usar as ferramentas de forma digital?" 
-              answer={<p className="text-slate-600">Terá acesso a versão em PDF das ferramentas. Caso possua tablet com editor de PDF conseguirá usar.</p>} 
+              answer={<p>Terá acesso a versão em PDF das ferramentas. Caso possua tablet com editor de PDF conseguirá usar.</p>} 
             />
             <FAQItem 
               question="Terei acesso a versão para impressão?" 
-              answer={<p className="text-slate-600">Sim, receberá as ferramentas em PDF para impressão em tamanho A4 ou A5.</p>} 
+              answer={<p>Sim, receberá as ferramentas em PDF para impressão em tamanho A4 ou A5.</p>} 
             />
           </div>
         </div>
@@ -777,7 +777,7 @@ const App: React.FC = () => {
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 via-pink-400 to-pink-500"></div>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-5xl font-black text-white mb-8 md:mb-12 leading-tight uppercase">Não deixe sua vida no improviso por mais nenhum dia.</h2>
-          <p className="text-slate-400 text-base md:text-xl mb-12 md:mb-16 font-medium text-slate-400">O caos custa caro. Comece sua Vida Próspera agora.</p>
+          <p className="text-slate-400 text-base md:text-xl mb-12 md:mb-16 font-medium">O caos custa caro. Comece sua Vida Próspera agora.</p>
           <button 
             onClick={scrollToPricing}
             className="inline-block w-full md:w-auto bg-pink-600 text-white font-black text-xl md:text-2xl px-16 py-6 rounded-2xl md:rounded-full hover:bg-pink-700 shadow-2xl shadow-pink-900/40 transition-all transform hover:scale-105 active:scale-95 uppercase"
